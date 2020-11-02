@@ -1,0 +1,14 @@
+# https://github.com/golangci/awesome-go-linters
+run:
+  skip-files:
+    - '.*_test.go'
+linters:
+  disable:
+    - gochecknoglobals
+    - wsl
+  enable-all: true
+  disable-all: false
+  fast: false
+linters-settings:
+  maligned:
+    suggest-new: true
