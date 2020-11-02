@@ -1,0 +1,7 @@
+domain: my.domain
+repo: kube-dev-start
+resources:
+- group: webapp
+  kind: Guestbook
+  version: v1
+version: "2"
